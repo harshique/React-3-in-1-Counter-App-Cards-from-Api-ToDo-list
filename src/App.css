@@ -1,0 +1,37 @@
+
+.counter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 5rem;
+  flex-direction: row-reverse;
+
+}
+button {
+  width: 100px;
+  height: 100px;
+  background: chartreuse;
+  cursor: pointer;
+  font-size: 45px;
+  font-weight: 700;
+  border-radius: 50%;
+}
+p{
+  width: 100px;
+    text-align: center;
+    height: 100px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    background: wheat;
+    border-radius: 50%;
+}
+h1{
+  text-align: center;
+}
