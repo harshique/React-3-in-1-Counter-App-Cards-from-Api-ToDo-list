@@ -1,9 +1,19 @@
+.App{
 
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  padding: 0rem 5rem;
+  flex-direction: column;
+  margin-top: 0;
+  border-bottom: 3px solid black;
+  border-bottom-style: dashed;
+  padding-bottom: 5rem;
+
+}
 .counter {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
   gap: 5rem;
   flex-direction: row-reverse;
@@ -18,8 +28,8 @@ button {
   font-weight: 700;
   border-radius: 50%;
 }
-p{
-  width: 100px;
+p.appparagraph{
+    width: 100px;
     text-align: center;
     height: 100px;
     margin: 0;
@@ -32,6 +42,10 @@ p{
     background: wheat;
     border-radius: 50%;
 }
-h1{
+h1 {
   text-align: center;
+  font-size: 60px;
+  color: purple;
+  background: bisque;
+  margin-top: 0;
 }
