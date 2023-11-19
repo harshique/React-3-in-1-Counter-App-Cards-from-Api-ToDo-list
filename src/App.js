@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Comp, Comp1 } from './myComponent/comp'
 
 
 
@@ -26,7 +25,7 @@ function App() {
       <h1>Counter App</h1>
       <div className='counter'>
          <button onClick={()=>changeVal(1)}>+</button>
-         <p>{text}</p>
+         <p className='appparagraph'>{text}</p>
          <button onClick={()=>changeVal(0)}>-</button>
       </div>
      
